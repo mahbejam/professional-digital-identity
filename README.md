@@ -1,5 +1,30 @@
 # Professional Digital Identity
 
+An interactive, privacy-first audit for building a professional digital identity around what you create, how you think, and where you are going next.
+
+**Live app:** [mahbejam.github.io/professional-digital-identity](https://mahbejam.github.io/professional-digital-identity/)
+
+## What is included
+
+- A six-point privacy and professional identity checklist.
+- A profile-strength score and progress meter.
+- Actionable recommendations that clear as each audit item is completed.
+- Automatic progress tracking with `localStorage` and a reset control.
+- Responsive layout for desktop and mobile screens.
+- No external APIs, analytics, accounts, or collection of personal data.
+
+The app is a self-contained [index.html](index.html) built with HTML, CSS, and vanilla JavaScript. It can be opened directly in a browser or served by GitHub Pages.
+
+## GitHub Pages
+
+GitHub Pages should be configured to deploy from the repository's main branch and root folder. Because the site has no build step, the published URL is:
+
+<https://mahbejam.github.io/professional-digital-identity/>
+
+The checklist is stored only in the visitor's own browser under the `professional-digital-identity-audit` localStorage key. No progress leaves the device.
+
+## The idea behind the app
+
 A personal collection of thoughts about professional branding, privacy, engineering, and responsible technology.
 
 **Author**
